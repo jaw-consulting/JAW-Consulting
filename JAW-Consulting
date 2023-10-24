@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAW-Consulting</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2em auto;
+            background-color: white;
+            padding: 2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .contact-btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>JAW-Consulting</h1>
+        <p>Dipl. Versicherungs- und Vorsorgeberater VBV</p>
+    </header>
+
+    <nav>
+        <a href="#home">Startseite</a>
+        <a href="#services">Dienstleistungen</a>
+        <a href="#about">Über mich</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Willkommen</h2>
+            <p>Willkommen bei JAW-Consulting, Ihrem vertrauenswürdigen Berater für Krankenkassen, Sach- und Vermögensversicherungen und Vorsorge in der Schweiz. Seit 6 Jahren bieten wir qualitativ hochwertige Beratung an.</p>
+            <a href="mailto:info@jaw-consulting.ch" class="contact-btn">Kontaktieren Sie mich</a>
+        </section>
+
+        <section id="services">
+            <h2>Dienstleistungen</h2>
+            <p>Hier können Sie detaillierte Informationen über die verschiedenen Dienstleistungen, die Sie anbieten, einfügen.</p>
+        </section>
+
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>Ich bin seit 6 Jahren in der Versicherungs- und Vorsorgeberatungsbranche tätig. Mein Ziel ist es, meinen Kunden den bestmöglichen Service zu bieten und sicherzustellen, dass sie die bestmöglichen Produkte für ihre Bedürfnisse erhalten.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>JAW-Consulting | info@jaw-consulting.ch</p>
+    </footer>
+</body>
+
+</html>
